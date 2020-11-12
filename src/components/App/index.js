@@ -1,15 +1,17 @@
 import React, {Component, useState} from "react";
-import '../styles/App.css';
+import Button from '../Button';
+import './style.css';
 
-class App extends Component {
+class App extends React.Component {
     constructor(props) {
 		super(props);
-	};
+	}
 
     render() {
     	return(
     		<div id="main">
-				{ /* Do not remove this main div!! */ }
+			
+			<Button/>
     		</div>
     	);
     }
